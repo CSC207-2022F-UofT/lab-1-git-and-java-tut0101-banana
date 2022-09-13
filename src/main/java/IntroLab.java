@@ -33,6 +33,9 @@ public class IntroLab {
         return message_to_print + message;
     }
 
+    public static String brenerig(){
+        return printLabMessage("Hello", "Igal", false, "among");
+    }
     /* TODO: In the space below, write your our method.
      *       The method should be named with your utorID and should call
      *       printLabMessage with some parameters.
@@ -59,7 +62,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.printf(brenerig());
 
     }
 

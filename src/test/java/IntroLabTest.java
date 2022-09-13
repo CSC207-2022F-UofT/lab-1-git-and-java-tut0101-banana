@@ -25,6 +25,13 @@ public class IntroLabTest {
         assertEquals(expected, actual);
     }
 
+    @Test(timeout = 10)
+    public void testCustomFunction(){
+        String expected = "Hello! My name is Igal! I like dogs more than cats! among";
+        String actual = IntroLab.brenerig();
+        assertEquals(expected, actual);
+    }
+
     /* TODO: Write a test case for the method you wrote in IntroLab.
      *       If done properly, you should be able to run IntroLabTest and see
      *       the test results.
